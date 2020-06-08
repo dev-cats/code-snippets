@@ -1,23 +1,23 @@
 :root {
-  --DarkBlack: #282828 !important;
-  --DarkRed: #cc241d !important;
-  --DarkGreen: #98971a !important;
-  --DarkYellow: #d79921 !important;
-  --DarkBlue: #458588 !important;
-  --DarkPurple: #b16286 !important;
-  --DarkAqua: #689d6a !important;
-  --DarkWhite: #a89984 !important;
-  --DarkOrange: #d65d0e !important;
+  --DarkBlack: 40, 40, 40 !important;
+  --DarkRed: 204, 36, 29 !important;
+  --DarkGreen: 152, 151, 26 !important;
+  --DarkYellow: 215, 153, 33 !important;
+  --DarkBlue: 69, 133, 136 !important;
+  --DarkPurple: 177, 98, 134 !important;
+  --DarkAqua: 104, 157, 106 !important;
+  --DarkWhite: 168, 153, 132 !important;
+  --DarkOrange: 214, 93, 14 !important;
 
-  --BrightBlack: #928374 !important;
-  --BrightRed: #fb4934 !important;
-  --BrightGreen: #b8bb26 !important;
-  --BrightYellow: #fabd2f !important;
-  --BrightBlue: #83a598 !important;
-  --BrightPurple: #d3869b !important;
-  --BrightAqua: #8ec07c !important;
-  --BrightWhite: #ebdbb2 !important;
-  --BrightOrange: #fe8019 !important;
+  --BrightBlack: 146, 131, 116 !important;
+  --BrightRed: 251, 73, 52 !important;
+  --BrightGreen: 184, 187, 38 !important;
+  --BrightYellow: 250, 189, 47 !important;
+  --BrightBlue: 131, 165, 152 !important;
+  --BrightPurple: 211, 134, 155 !important;
+  --BrightAqua: 142, 192, 124 !important;
+  --BrightWhite: 235, 219, 178 !important;
+  --BrightOrange: 254, 128, 25 !important;
   
   --LightGray: var(--DarkWhite) !important;
   --DarkGray: var(--BrightBlack) !important;
@@ -27,28 +27,18 @@
   --bg: var(--DarkBlack) !important;
   --fg: var(--BrightWhite) !important;
   
-  --bg0_h: #1d2021 !important;
-  --bg0_s: #32302f !important;
+  --bg0_h: 29, 32, 33 !important;
+  --bg0_s: 50, 48, 47 !important;
   --bg0: var(--DarkBlack) !important;
-  --bg1: #3c3836 !important;
-  --bg2: #504945 !important;
-  --bg3: #665c54 !important;
-  --bg4: #7c6f64 !important;
+  --bg1: 60, 56, 54 !important;
+  --bg2: 80, 73, 69 !important;
+  --bg3: 102, 92, 84 !important;
+  --bg4: 124, 111, 100 !important;
   
-  --bg-rgb: 40, 40, 40 !important;
-  --bg0_h-rgb: 29, 32, 33 !important;
-  --bg0_s-rgb: 50, 48, 47 !important;
-  --bg0-rgb: var(--bg-rgb) !important;
-  --bg1-rgb: 60, 56, 54 !important;
-  --bg2-rgb: 80, 73, 69 !important;
-  --bg3-rgb: 102, 92, 84 !important;
-  --bg4-rgb: 124, 111, 100 !important;
-  --gray-rgb: 146, 131, 116 !important;
-  
-  --fg0: #fbf1c7 !important;
+  --fg0: 251, 241, 199 !important;
   --fg1: var(--BrightWhite) !important;
-  --fg2: #d5c4a1 !important;
-  --fg3: #bdae93 !important;
+  --fg2: 213, 196, 161 !important;
+  --fg3: 189, 174, 147 !important;
   --fg4: var(--DarkWhite) !important;
   
   --black: var(--DarkBlack) !important;
